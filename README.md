@@ -1,17 +1,26 @@
-# Notes API — Express.js
+# Posts API — Express.js
 
 A REST API built with Express.js as part of my backend learning journey.
-Rebuilt from a raw Node.js version to understand what Express replaces.
+Built following the Traversy Media Express.js Crash Course.
 
 ## Endpoints
 
 | Method | URL | Description |
 |---|---|---|
-| GET | /api/notes | Get all notes |
-| GET | /api/notes/:id | Get note by id |
-| POST | /api/notes | Create a note |
-| PUT | /api/notes/:id | Update a note |
-| DELETE | /api/notes/:id | Delete a note |
+| GET | /api/posts | Get all posts |
+| GET | /api/posts/:id | Get post by id |
+| POST | /api/posts | Create a post |
+| PUT | /api/posts/:id | Update a post |
+| DELETE | /api/posts/:id | Delete a post |
+
+## Post structure
+
+```json
+{
+  "id": 1,
+  "title": "My first post"
+}
+```
 
 ## Tech used
 - Node.js
